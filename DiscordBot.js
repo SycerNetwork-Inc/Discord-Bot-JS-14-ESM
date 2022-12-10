@@ -1,6 +1,6 @@
 import discord from 'discord.js';
 import { readdirSync } from 'fs';
-import { token , cookie_nh, lavalink } from './config.js';
+import { token , lavalink } from './config.js';
 import { Manager } from 'erela.js';
 
 console.clear();
@@ -41,11 +41,6 @@ for (const file of handlersFiles) {
 client.once('ready', async (res) => {
     console.log('\x1b[32m%s\x1b[0m' , `[⁂] ${res.user?.tag}`);
     client.manager.init(client.user.id);
-    if(cookie_nh === undefined) {
-        console.log('\x1b[31m%s\x1b[0m', '[!] Connect nhentai is 502');
-    } else {
-        console.log('\x1b[36m%s\x1b[0m', '[+] Connect nhentai is 200');
-    }
 });
 
 
