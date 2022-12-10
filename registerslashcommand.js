@@ -1,5 +1,5 @@
 import { REST } from '@discordjs/rest';
-import { token, prefix, clientId } from './config.js';
+import { token, clientId } from './config.js';
 import { readdirSync } from 'fs';
 
 const commands = [];
