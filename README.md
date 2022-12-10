@@ -9,7 +9,11 @@
 - CommonJS
 ```
 
-Run Shard Or Not Shard
+> Run Shard Or Not Shard
 
+```
 Shard : node shard.js
+```
+```
 Not Shard : node DiscordBot.js
+```
