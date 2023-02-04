@@ -8,7 +8,7 @@ console.log('[@] Starting...');
 
 const [major, minor, patch] = process.versions.node.split('.').map(parseFloat);
 if (major < 17) {
-    console.error('[@] Node version is too old. Please update to 16.17.0 or higher.');
+    console.error('[@] Node version is too old. Please update to NodeJS 17 or higher.');
     process.exit(1);
 }
 
